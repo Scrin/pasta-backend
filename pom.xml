@@ -9,7 +9,7 @@
 
     <properties>
         <jdk.version>11</jdk.version>
-        <jetty.version>9.3.11.v20160721</jetty.version>
+        <jetty.version>9.4.6.v20170531</jetty.version>
     </properties>
 
     <dependencies>
