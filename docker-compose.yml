@@ -1,13 +1,13 @@
 version: '3.5'
 services:
   frontend:
-    image: scrinii/pasta-frontend
+    image: ghcr.io/scrin/pasta-frontend
     ports:
       - "8080:80"
     depends_on:
       - backend
   backend:
-    image: scrinii/pasta-backend
+    image: ghcr.io/scrin/pasta-backend
     depends_on:
       - redis
   redis:
